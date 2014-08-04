@@ -52,8 +52,13 @@
 			"achievements" : " Implemented new payroll, 401k, and expense reporting platforms."
 		},
 		{
+			"company" : "Ross Valley Lacrosse Club",
 			"title" : "U-13 Boys Lacrosse Coach",
-			"location" : "Ross Valley Youth Lacrosse Club",
+			"location" : "Marin",
+			"startDate" : "2011",
+			"endDate" : "current",
+			"responsibilities" : "Coaching youth lacrosse with a group of U-13 Boys",
+			"achievements" : "Watching them develop into better lacrosse players and even better kids",
 			"link" : "http://www.rossvalleylacrosse.com/"
 		}
 	],
