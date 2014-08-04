@@ -1,63 +1,78 @@
 {
-	"name" : "Homer Jay Simpson",
-	"contact" : "chunkylover53@aol.com",
+	"name" : "Emmett Faricy",
+	"contact" : "emmett.faricy@gmail.com",
 	"title" : "Safety Inspector",
 	"objective" : "To be happy.",
-	"aboutme" : "I love beer, doughnuts, and all things fried.",
 	"social" : [
 		{
-			"link" : "http://www.linkedin.com/in/homerjsimpson",
+			"link" : "http://www.linkedin.com/in/efaricy",
 			"name" : "LinkedIn"
 		},
 		{
-			"link" : "https://twitter.com/HomerJSimpson",
-			"name" : "twitter"
+			"link" : "http://www.codeeval.com/profile/erfaricy/",
+			"name" : "CodeEval"
 		},
 		{
-			"link" : "https://github.com/bittersweetryan/jsonmue",
+			"link" : "https://github.com/erfaricy.com",
 			"name" : "this.source"
 		}
 	],
 	"skills" : [
-		"Eating",
-		"Sleeping",
-		"Bowling"
+		"Ruby",
+		"JavaScript",
+		"CSS 3",
+		"HTML 5"
 	],
 	"frameworks" : [
-		"D'oh! What's a framework?"
+		"Ruby on Rails",
+		"Backbone",
 	],
 	"projects" : [
 		{
-			"name" : "Boxcar Racer",
-			"technologies" : "wood, and plastic",
-			"description" : "Helped Bart build a boxcar racer, but Martin's was better."
+			"name" : "WAKEbnb",
+			"technologies" : "Ruby on Rails, Backbone",
+			"description" : "Airbnb clone for Wakeboards and boats.",
+			"github" : "https://github.com/Erfaricy/wakebnb"
+			"link": "http://www.wakebnb.com"
+		},
+		{ "name" : "Asteroids",
+			"technologies" : "JavaScript",
+			"description" : "Incomplete Version of Asteroids",
+			"github": "https://github.com/Erfaricy/asteroids.js"
 		}
 	],
 	"experience" : [
 		{
-			"company" : "Springfield Nuclear",
-			"link" : "",
-			"title" : "Safety Inspector",
-			"startDate" : "1989",
-			"endDate" : "Present",
-			"responsibilities" : "Build high quality web applications using JavaScript, Java, ColdFusion for our clients. I also evaluate and educate the development team on new techniques and technologies. High-level application design including technologies, frameworks, and coding practices.",
-			"achievements" : "Introduced unit testing, continuous integration, source control, and development best practices to the team.  Started the Lunch and Learn program where team members teach each other new technologies and techniques. Lead development teams of up to 5 developers on profitable development projects."
+			"company" : "Juice Beauty Inc.",
+			"link" : "http://www.juicebeauty.com/",
+			"title" : "Accounting Project Manager",
+			"startDate" : "2011",
+			"endDate" : "2014",
+			"responsibilities" : "Head of the accounting department of a rapid growth organic cosmetics company. Helped drive growth from 3 million to 15 million in sales, paid and posted $2.5 million in payroll.",
+			"achievements" : " Implemented new payroll, 401k, and expense reporting platforms."
 		}
 	],
-	"speaking" : [ 
+	"other work" : [ 
 		{
-			"title" : "Debate for Garbage Commission",
-			"location" : "Springfield Townhall",
-			"link" : "http://textiles.online.ncsu.edu/online/SilverlightPlayer/Default.aspx?peid=02c7fe6174654f96b78a6194d3dbbe9d1d"
+			"title" : "U-13 Boys Lacrosse Coach",
+			"location" : "Ross Valley Youth Lacrosse Club",
+			"link" : "http://www.rossvalleylacrosse.com/"
 		}
 	],
 	"education" : [
 		{
-			"school" : "Springfield University",
-			"startDate" : "1993",
-			"endDate" : "1993",
-			"program" : "Nuclear Physics",
-			"achievements" : "Ran over dean with car, kidnapped Sir Oinks-a-lot."
+			"school" : "Dominican University of California",
+			"startDate" : "2011",
+			"endDate" : "2014",
+			"program" : "M.B.A. - Global Strategic Leadership",
+			"achievements" : "Varsity Athlete, co-captain."
+		},
+		{
+			"school" : "Dominican University of California",
+			"startDate" : "2007",
+			"endDate" : "2011",
+			"program" : "B.A. - Business Administration",
+			"achievements" : "Varsity Athlete, co-captain."
 		}
 	]
 }
