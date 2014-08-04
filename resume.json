@@ -1,8 +1,6 @@
 {
 	"name" : "Emmett Faricy",
 	"contact" : "emmett.faricy@gmail.com",
-	"title" : "Safety Inspector",
-	"objective" : "To be happy.",
 	"social" : [
 		{
 			"link" : "http://www.linkedin.com/in/efaricy",
@@ -14,16 +12,14 @@
 		},
 		{
 			"link" : "https://github.com/erfaricy.com",
-			"name" : "this.source"
+			"name" : "Github"
 		}
 	],
 	"skills" : [
 		"Ruby",
 		"JavaScript",
 		"CSS 3",
-		"HTML 5"
-	],
-	"frameworks" : [
+		"HTML 5",
 		"Ruby on Rails",
 		"Backbone"
 	],
@@ -55,8 +51,8 @@
 			"company" : "Ross Valley Lacrosse Club",
 			"title" : "U-13 Boys Lacrosse Coach",
 			"location" : "Marin",
-			"startDate" : "2011",
-			"endDate" : "current",
+			"startDate" : "2014",
+			"endDate" : "Current",
 			"responsibilities" : "Coaching youth lacrosse with a group of U-13 Boys",
 			"achievements" : "Watching them develop into better lacrosse players and even better kids",
 			"link" : "http://www.rossvalleylacrosse.com/"
