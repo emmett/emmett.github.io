@@ -25,14 +25,14 @@
 	],
 	"frameworks" : [
 		"Ruby on Rails",
-		"Backbone",
+		"Backbone"
 	],
 	"projects" : [
 		{
 			"name" : "WAKEbnb",
 			"technologies" : "Ruby on Rails, Backbone",
 			"description" : "Airbnb clone for Wakeboards and boats.",
-			"github" : "https://github.com/Erfaricy/wakebnb"
+			"github" : "https://github.com/Erfaricy/wakebnb",
 			"link": "http://www.wakebnb.com"
 		},
 		{ "name" : "Asteroids",
