@@ -87,7 +87,7 @@ a:focus {
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
-	background-color: #2F3238;
+	background-color: black;
 	border-color: #2F3238;
 	color: white !important;
 	opacity: 1;
