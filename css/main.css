@@ -14,9 +14,8 @@ html, body {
 }
 
 body {
-	background:url(../img/dark_wall.png) repeat;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	color: #7E8385;
+	color: white;
 	font-size:15px;
 	line-height: 2;
 	font-weight:100;
@@ -24,7 +23,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	color: black;
+	color: #ecf0f1;
 	font-family: "Montserrat",Helvetica,Arial,sans-serif;
 	font-weight: 100;
 	letter-spacing:3px;
@@ -74,12 +73,12 @@ a:focus {
 	background: none;
 	font-family: "Montserrat",Helvetica,Arial,sans-serif;
 	border-radius: 3px;
-	border:2px solid #676767;
+	border:2px solid white;
 	padding-left:25px;
 	padding-right:25px;
 	padding-top:15px;
 	padding-bottom:15px;
-	color: #676767;
+	color: white;
 	text-transform: uppercase;
 	-webkit-transition: all 0.5s ease 0s;
 	-moz-transition: all 0.5s ease 0s;
@@ -451,7 +450,6 @@ a:focus {
 
 .skillbar-title span {
 	display:block;
-	background:rgba(0, 0, 0, 0.1);
 	padding:0 20px;
 	height:15px;
 	line-height:15px;
@@ -466,7 +464,7 @@ a:focus {
 .skillbar-bar {
 	height:15px;
 	width:0px;
-	background:#6adcfa;
+	background: #2A2C32;
 	border-radius:3px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
@@ -506,7 +504,7 @@ a:focus {
 	margin-top:0px;
 }
 .cv-wrapper .cv .desc {
-	color: #aaa;
+	color: white;
 }
 
 .cv-wrapper .cv:nth-child(even) {
@@ -522,11 +520,11 @@ a:focus {
 }
 
 .cv-wrapper .cv .date {
-	color: #aaa;
+	color: white;
 }
 .cv-wrapper .cv .date .fa,
 .cv-wrapper .cv .main .fa{
-	color:#D3D3D3;
+	color: white;
 }
 
 /* TIMELINE MODULE*/
@@ -820,6 +818,7 @@ a:focus {
 }
 .feature .headline h3{
 	font-weight:400;
+	color: white;
 }
 .feature .text p{
 	padding-left:25px;
@@ -1260,7 +1259,7 @@ section {
 	-webkit-backface-visibility: hidden;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background:white;
+	background:#34495e;
 	position:relative;
 	z-index:3;
 }
@@ -1328,7 +1327,7 @@ section:nth-child(odd) {
 	padding-right:5%;
 	font-size:18px;
 	line-height: 1.5;
-	color:#C4C4C4;
+	color: white;
 	font-family:"Montserrat",Helvetica,Arial,sans-serif;
 }
 
@@ -1370,10 +1369,12 @@ section:nth-child(odd) {
 }
 
 #head.style2 .hero h1{
-	background:#FFDC52;
+	background:#34495e;
+	opacity: .75;
 }
 #head.style2 .hero h3{
-	background:#DED269;
+	background:#2c3e50;
+	opacity: .75;
 }
 /*head variation*/
 
@@ -1602,8 +1603,8 @@ hr.not-visible{
 	    z-index:3;
 }
 .svgcolor-light path {
-    fill: white;
-    stroke: white;
+    fill: #34495e;
+    stroke: #34495e;
     stroke-width:0;
 }
 .svgcolor-dark path {
