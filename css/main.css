@@ -104,10 +104,11 @@ a:focus {
     font-weight: 800;
     line-height: 25px;
     padding-top: 10px;
+		color: #34495e;
 }
 
 .company .border{
-	border:3px solid white;
+	border:3px solid #34495e;
 	padding-top:3px;
 	padding-bottom:3px;
 	padding-left:8px;
@@ -139,7 +140,7 @@ a:focus {
 
 .navbar-nav > li > a,
 .navbar-nav .dropdown-menu > li > a {
-	color:white;
+	color:black;
 	font-size:10px;
 }
 .navbar-nav > li{
@@ -212,7 +213,7 @@ a:focus {
 	padding-top:7px;
 }
 .top-nav-collapse .company .border{
-	border:3px solid black;
+	border:3px solid #34495e;
 }
 .top-nav-collapse .navbar-nav > li > a,
 .top-nav-collapse .navbar-nav .dropdown-menu > li > a {
@@ -246,7 +247,7 @@ a:focus {
 
 .top-nav-collapse {
     padding: 0;
-    background-color: #F9F9F9;
+    background-color: #E5E9EC;
     border-bottom: 1px solid #f2f2f2;
 }
 
