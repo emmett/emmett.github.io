@@ -140,7 +140,7 @@ a:focus {
 
 .navbar-nav > li > a,
 .navbar-nav .dropdown-menu > li > a {
-	color:black;
+	color: #34495e;
 	font-size:10px;
 }
 .navbar-nav > li{
@@ -149,10 +149,10 @@ a:focus {
     transition: border-bottom-color  1s ease-in-out;
 }
 .navbar-nav > li.active{
-	border-bottom:3px solid white;
+	border-bottom:3px solid #34495e;
 }
 .top-nav-collapse .navbar-nav > li.active{
-	border-bottom:3px solid black;
+	border-bottom:3px solid #34495e;
 }
 .navbar-nav .caret {
     border-bottom-color: white;
@@ -207,7 +207,7 @@ a:focus {
 
 /*small version */
 .top-nav-collapse{
-	color:black;
+	color: #34495e;
 }
 .top-nav-collapse .company{
 	padding-top:7px;
@@ -217,7 +217,7 @@ a:focus {
 }
 .top-nav-collapse .navbar-nav > li > a,
 .top-nav-collapse .navbar-nav .dropdown-menu > li > a {
-	color:black !important;	
+	color: #34495e !important;	
 }
 
 .top-nav-collapse .navbar-nav .dropdown-menu {
@@ -665,7 +665,7 @@ a:focus {
 .timeline-body > p,
 .timeline-body > ul {
     margin-bottom: 0;
-    color:#AAAAAA;
+    color: white;
     text-align:justify;
 }
 
@@ -1560,7 +1560,7 @@ footer .copy {
 }
 
 #preloader .border{
-	border:3px solid black;
+	border:3px solid #34495e;
 }
 
 /*
