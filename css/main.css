@@ -952,10 +952,9 @@ a:focus {
     padding: 0;
     width:100%;
 }
-.portfolio-grid div {
-    display: block;
-
-    opacity: 1;
+.badges .skills {
+    display: inline;
+		width: 75px;
     padding: 0px;
 
 }
