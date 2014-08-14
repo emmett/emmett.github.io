@@ -30,13 +30,13 @@
 		{
 			"name" : "WAKEbnb",
 			"technologies" : "Ruby on Rails, Backbone",
-			"description" : "Airbnb clone for Wakeboards and boats.",
+			"description" : "Airbnb clone for Wakeboards and boats",
 			"github" : "https://github.com/Erfaricy/wakebnb",
 			"link": "http://www.wakebnb.com"
 		},
 		{ "name" : "Asteroids",
 			"technologies" : "JavaScript",
-			"description" : "Incomplete Version of Asteroids",
+			"description" : "Classic Game built in Javascript",
 			"github": "https://github.com/Erfaricy/asteroids.js"
 		}
 	],
