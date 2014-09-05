@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html ng-app>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	<script src="minesweeper/js/main.js"></script>
+	<link rel="stylesheet" href="minesweeper/stylesheets/minesweeper.css">
+</head>
+	
+<div ng-controller="MinesweeperController">
+	<span>
+		<img ng-show="!isWon && !isLost" src="minesweeper/images/button-smiley.gif" />
+		<img ng-show="isWon" src="minesweeper/images/win.gif" />
+		<img ng-show="isLost" src="minesweeper/images/lost.gif" />
+	</span>
+	<table class="minefield">
+		<tr ng-repeat="row in minefield.rows">
+			<td ng-repeat="spot in row.spots" ng-click="uncoverSpot(spot)">
+				<img ng-show="spot.isCovered" src="minesweeper/images/covered.png" />
+				<img ng-show="!spot.isCovered && spot.content == 'empty'" src="minesweeper/images/empty.png" />
+				<img ng-show="!spot.isCovered && spot.content == 'mine'" src="minesweeper/images/mine.png" />
+				<img ng-show="!spot.isCovered && spot.content == 'wrong'" src="minesweeper/images/mine-wrong.png" />
+				<img ng-show="!spot.isCovered && spot.content == 1" src="minesweeper/images/number-1.png" />
+				<img ng-show="!spot.isCovered && spot.content == 2" src="minesweeper/images/number-2.png" />
+				<img ng-show="!spot.isCovered && spot.content == 3" src="minesweeper/images/number-3.png" />
+				<img ng-show="!spot.isCovered && spot.content == 4" src="minesweeper/images/number-4.png" />
+				<img ng-show="!spot.isCovered && spot.content == 5" src="minesweeper/images/number-5.png" />
+				<img ng-show="!spot.isCovered && spot.content == 6" src="minesweeper/images/number-6.png" />
+				<img ng-show="!spot.isCovered && spot.content == 7" src="minesweeper/images/number-7.png" />
+				<img ng-show="!spot.isCovered && spot.content == 8" src="minesweeper/images/number-8.png" />
+			</td>
+		</tr>
+	</table>
+
+</div>
+
+<a href="https://github.com/Erfaricy/angular-minesweeper">My Github</a>
+</html>
