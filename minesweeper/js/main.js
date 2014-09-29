@@ -123,6 +123,12 @@ function MinesweeperController($scope) {
 	$scope.minefield = createMineField();
 	$scope.isWon = false;
 	$scope.isLossMessageVisable = false;
+	$scope.reset = function(face){
+		$scope.minefield = createMineField();
+		$scope.isWon = false;
+		$scope.isLossMessageVisable = false;
+	};
+	
 	$scope.uncoverSpot = function(spot){
 		spot.isCovered = false;
 		
@@ -142,6 +148,6 @@ function MinesweeperController($scope) {
 				}
 			}
 		}
-	}
+	};
 }
 
