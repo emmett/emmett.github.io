@@ -122,11 +122,13 @@ function placeRandomMine(minefield){
 function MinesweeperController($scope) {
 	$scope.minefield = createMineField();
 	$scope.isWon = false;
-	$scope.isLossMessageVisable = false;
+	$scope.isLost = false;
+	$scope.mines = 10;
+	
 	$scope.reset = function(face){
 		$scope.minefield = createMineField();
 		$scope.isWon = false;
-		$scope.isLossMessageVisable = false;
+		$scope.isLost = false;
 	};
 	
 	$scope.uncoverSpot = function(spot){
