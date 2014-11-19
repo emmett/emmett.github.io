@@ -10,10 +10,6 @@
 			"name" : "LinkedIn"
 		},
 		{
-			"link" : "http://www.codeeval.com/profile/erfaricy/",
-			"name" : "CodeEval"
-		},
-		{
 			"link" : "https://github.com/erfaricy.com",
 			"name" : "Github"
 		}
@@ -45,7 +41,6 @@
 	"experience" : [
 		{
 			"company" : "Juice Beauty Inc.",
-			"link" : "http://www.juicebeauty.com/",
 			"title" : "Web Developer (Contract)",
 			"startDate" : "2014",
 			"endDate" : "Current",
@@ -54,7 +49,6 @@
 		},
 		{
 			"company" : "Juice Beauty Inc.",
-			"link" : "http://www.juicebeauty.com/",
 			"title" : "Accounting Project Manager",
 			"startDate" : "2011",
 			"endDate" : "2014",
