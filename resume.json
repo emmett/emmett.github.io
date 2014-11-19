@@ -24,7 +24,8 @@
 		"CSS 3",
 		"HTML 5",
 		"Ruby on Rails",
-		"Backbone"
+		"Backbone",
+		"Angular"
 	],
 	"projects" : [
 		{
@@ -34,13 +35,21 @@
 			"github" : "https://github.com/Erfaricy/wakebnb",
 			"link": "http://www.wakebnb.com"
 		},
-		{ "name" : "Asteroids",
-			"technologies" : "JavaScript",
-			"description" : "Classic Game built in Javascript",
-			"github": "https://github.com/Erfaricy/asteroids.js"
+		{ "name" : "Minesweeper",
+			"technologies" : "Angular",
+			"description" : "Classic Windows Game remade in Angular",
+			"github": "https://github.com/Erfaricy/erfaricy.github.io/tree/master/minesweeper",
+			"link": "http://www.erfaricy.com/minesweeper"
 		}
 	],
 	"experience" : [
+		{
+			"company" : "Juice Beauty Inc.",
+			"link" : "http://www.juicebeauty.com/",
+			"title" : "Web Developer (Contract)",
+			"startDate" : "2014",
+			"responsibilites" : "Developed online Consultation Quiz to direct customers to products. Oversaw Integration between Magento eCommerce and SAP Business 1 Platforms." 
+		},
 		{
 			"company" : "Juice Beauty Inc.",
 			"link" : "http://www.juicebeauty.com/",
