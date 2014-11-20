@@ -12,3 +12,10 @@
 	border: inset 3px #eee;
 	background-color: #c0c0c0;
 }
+
+.gameFont {
+	font-family: 'Press Start 2P', cursive;
+	color: #ff0000;
+	background-color: #000000;
+}
+

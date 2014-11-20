@@ -5,19 +5,20 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
 	<script src="minesweeper/js/main.js"></script>
 	<link rel="stylesheet" href="minesweeper/stylesheets/minesweeper.css">
+	<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
 </head>
 	
 <div ng-controller="MinesweeperController">
 
 	<table class="minefield">
 		<tr class="header">
-				<th colspan="3"> {{ timer }}</th>
-				<th colspan="3" ng-click="reset(face)">
+				<th colspan="4" class="gameFont"> {{ timer }}</th>
+				<th  ng-click="reset(face)">
 					<img ng-show="!isWon && !isLost" src="minesweeper/images/button-smiley.gif" />
 					<img ng-show="isWon" src="minesweeper/images/win.gif" />
 					<img ng-show="isLost" src="minesweeper/images/lost.gif" />
 				</th>
-				<th colspan="3">{{ mines }}</th>
+				<th colspan="4" class="gameFont">{{ mines }}</th>
 		</tr>
 		<tr ng-repeat="row in minefield.rows">
 			<td ng-repeat="spot in row.spots" ng-click="uncoverSpot(spot)">
