@@ -6,3 +6,9 @@
 .minefield td {
     padding:0
 }
+
+.header {
+	Position: relative;
+	border: inset 3px #eee;
+	background-color: #c0c0c0;
+}
