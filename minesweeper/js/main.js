@@ -119,16 +119,28 @@ function placeRandomMine(minefield){
 	}
 }
 
-function MinesweeperController($scope) {
+angular.module('Minesweeper', [])
+.controller('MinesweeperController', ['$scope', '$interval', function($scope, $interval) {
 	$scope.minefield = createMineField();
 	$scope.isWon = false;
 	$scope.isLost = false;
 	$scope.mines = 10;
-	
+	$scope.timer = 0;
+
+ var myTimer = $interval(function(){
+		$scope.timer ++;
+	},1000);
+
 	$scope.reset = function(face){
 		$scope.minefield = createMineField();
 		$scope.isWon = false;
 		$scope.isLost = false;
+		$scope.timer = 0;
+		$interval.cancel(myTimer)
+		myTimer = $interval(function(){
+		$scope.timer ++;
+	},1000);
+
 	};
 	
 	$scope.uncoverSpot = function(spot){
@@ -138,10 +150,12 @@ function MinesweeperController($scope) {
 		
 		if(hasWon($scope.minefield)) {
 			$scope.isWon = true;
+			$interval.cancel(myTimer)
 		}
 		
 		if(spot.content == "mine"){
-			spot.content = "wrong"
+			spot.content = "wrong";
+			$interval.cancel(myTimer)
 			$scope.isLost = true;
 			for(var i = 0; i < 9; i++){
 				for(var j = 0; j < 9; j++){
@@ -151,5 +165,5 @@ function MinesweeperController($scope) {
 			}
 		}
 	};
-}
+}])
 
