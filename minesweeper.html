@@ -12,13 +12,13 @@
 
 	<table class="minefield">
 		<tr class="header">
-				<th colspan="4" class="gameFont"> {{ timer }}</th>
+				<th colspan="4" class="gameFont" align="right"> {{ timer }}</th>
 				<th  ng-click="reset(face)">
 					<img ng-show="!isWon && !isLost" src="minesweeper/images/button-smiley.gif" />
 					<img ng-show="isWon" src="minesweeper/images/win.gif" />
 					<img ng-show="isLost" src="minesweeper/images/lost.gif" />
 				</th>
-				<th colspan="4" class="gameFont">{{ mines }}</th>
+				<th colspan="4" class="gameFont" align="right">{{ mines }}</th>
 		</tr>
 		<tr ng-repeat="row in minefield.rows">
 			<td ng-repeat="spot in row.spots" ng-click="uncoverSpot(spot)">
