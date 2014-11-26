@@ -87,7 +87,6 @@ function hasWon(minefield){
 			}
 		}
 	}
-	console.log("won")	
 	return true;
 }
 
